@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Naima Jamal - Projects</title>
+</head>
+<body>
+    <header>
+        <h1>NAIMA JAMAL</h1>
+        <p>Have a look at my projects!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+        </ul>
+    </nav>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <label for="filter">Filter by Technology:</label>
+        <input type="text" id="filter" oninput="filterProjects()">
+        
+        <!-- Project List -->
+        <ul id="project-list">
+            <!-- List populated dynamically using JavaScript -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Naima Jamal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
